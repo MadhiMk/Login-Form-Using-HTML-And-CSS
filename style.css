@@ -1,0 +1,99 @@
+body{
+    background-color: rgba(211, 211, 211, 0.8);
+}
+
+.maincls{
+    width: 1100px;
+    height: 560px;
+    background-image: url("./1.jpg");
+    background-size: cover;
+    border-radius: 30px;
+    position: relative;
+    left: 120px;
+    top: 30px;
+    box-shadow: 5px 5px 35px black;
+}
+
+.subcls{
+    width: 320px;
+    height: 440px;
+    background-color: rgba(219, 219, 241, 0.9);
+    border-radius: 30px;
+    position: relative;
+    left: 700px;
+    top: 60px;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 35px black;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 40px);
+}
+
+h1{
+    font-family: Rockwell;
+    font-size: 56px;
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    color: white;
+    text-shadow: 5px 5px 15px green, 5px 5px 15px red;
+}
+
+h2{
+    font-family: rockwell;
+    text-align: center;
+}
+
+.maincls input[type="text"], input[type="password"]{
+    border: none;
+    outline: none;
+    font-family: rockwell;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(73, 45, 71);
+}
+
+.maincls input[type="text"]{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.maincls input[type="password"]{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.maincls input[type="submit"]{
+    width: 215px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: rockwell;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: indianred;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: rockwell;
+}
+
+.maincls input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(42, 152, 226);
+}
+
+a:hover{
+    color: rgb(255, 9, 111);
+}
